@@ -1,0 +1,142 @@
+*{padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+#header1{
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px; 
+    position: fixed;
+    top: 0;   
+}
+
+#logo{
+    margin: 4px 4px 4px 0px;
+}
+
+#logo:hover,#language:hover,#address-box:hover,#account:hover,#order:hover,#cart:hover,#box:hover{
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+
+#location-box{
+    display: flex;
+}
+
+#delivery{
+    color: #cccccc;
+    margin-left: 25px;
+    font-size: 13px;
+}
+#update{
+    color: #ffffff;
+    font-weight: 500;
+}
+
+/* searchbar*/
+
+#searchbar{
+    display: flex;
+    align-items: center;
+}
+
+#select , #int{
+    border: none;
+    height: 39px;
+}
+
+#int{
+    width: 44vw;
+    padding: 7px 10px 10px 4px;
+    font-size: 15px;
+
+}
+
+#select{
+    border: 1px solid #cdcdcd;
+    border-radius: 4px 0 0 4px;
+    background-color: #cdcdcd;
+    margin: 0;
+    padding-left: 5px;
+    width: 51px;
+}
+
+#search-icon{
+    background-color: rgb(236, 125, 6);
+    width: 45px;
+    height: 39px;
+    border-radius: 0 4px 4px 0;
+    padding: 4px;
+    cursor: pointer;
+}
+
+#language{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 53px; height: 55px;
+    padding-top: 13px;
+    margin-left: 19px;
+    cursor: pointer;
+
+}
+
+#account{
+    width: 141px; height: 53px;
+    padding: 12px 0px 0px 9px;
+    margin-left: 6px;
+}
+
+#order{
+    width: 76px; height:53px ;
+    padding: 11px 2px 0px 4px;
+    margin-left: 4px;
+}
+
+#cart{
+    width: 82px; height:52px ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.2px;
+}
+
+/*main-content*/
+
+#header2{
+    width: 100%; height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#box{
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+}
+
+span{
+    font-weight: 700;
+}
+
+/*section-first*/
+
+#section-first{
+    position: absolute;
+    top: 350px;
+    z-index: 10;
+    width: 100%; height: 420px;
+    border: 1px solid green;
+}
+
+
